@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Leckerli+One&family=Luckiest+Guy&display=swap");
+
+:root {
+  --main-grey: #696969;
+  --main-orange: #ff6445;
+  --main-blue: #59a4c9;
+  --main-darkgrey: #242424;
+}
+
+body {
+  background-color:gray;
+  padding:0;
+  margin:0:
+
+}
+
+
+
+.mural {
+  position: fixed;
+  padding: 0;
+  margin: 0;
+  min-width:100%;
+  min-height:100%;
+  opacity: 70%;
+  filter:blur(1px);
+z-index:-1;
+}
+
+
+
+
+
+.navbar{
+  position:fixed;
+  width:100%;
+  z-index:1;
+  background-color:white;
+  border-bottom:5px solid var(--main-blue);
+}
+
+
+.navbar-brand {
+  font-family: "Leckerli One";
+  color:var(--main-blue) !important;
+}
+
+.navbar-collapse{
+  color:var(--main-blue) !important;
+}
+
+.nav-link{
+  color:var(--main-blue) !important;
+  font-weight:bold;
+}
+
+
+
+.intro {
+    height:90vh;
+    margin:0;
+    padding-top: 40vh;
+       
+  
+  }
+
+.intro-greeting {
+  background-color: var(--main-blue);
+  border: 5px solid var(--main-orange);
+  color: white;
+  width: 300px;
+  text-align: center; 
+}
+
+.btn:hover{
+  background-color:var(--main-orange);
+}
+
+
+.section-header{
+  padding-left:2rem;
+}
+
+.section-header h2{
+  color: var(--main-orange);
+}
+
+
+
+.initial-h{
+  padding-right:10px;
+
+}
+
+.content{
+  background-color: white;
+  border-top:5px solid var(--main-blue);
+  padding-top:50px;
+  padding-left:auto;
+  padding-right:auto;
+  
+}
+
+.projects{
+  padding-bottom:100px;
+}
+
+                .projects .card{
+                 display:flex;
+                 flex-wrap:wrap;
+                 flex:15%;
+                  margin-right:20px;
+                 margin-left:20px;
+                margin-bottom:50px;
+                  max-width:40%;
+                 min-width: 300px;
+                }
+                                  
+
+                .projects img{
+                  display:block;
+                  border: 5px solid var(--main-blue);
+                  width:250px;
+                  margin-top:20px;
+                 margin-left:auto;
+                 margin-right:auto;
+                filter:blur(1px);
+                }
+
+
+                .projects h2{
+                  color:var(--main-orange);
+                }
+
+                .projects img:hover{
+                  border:5px solid var(--main-orange);
+                }
+
+            
+.contact{
+  height:100vh;
+  padding-top:100px;
+}
+
+
+
+
